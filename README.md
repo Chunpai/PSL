@@ -1,13 +1,13 @@
-###Procedures:  
+### Procedures:    
 1. data preprocessing, and store evidences in data/  
 2. run psl to read the predicate and evidence, and do the inference  
 3. store the results in result/
 
-###installation:  
+### installation:   
 1. git clone https://github.com/linqs/psl  
 2. follow instructions https://github.com/linqs/psl/wiki/Getting-Started-with-Groovy  
 
-###Run:  
+### Run:    
 1. python extract.py
 2. mvn compile  
 3. mvn dependency:build-classpath -Dmdep.outputFile=classpath.out   
